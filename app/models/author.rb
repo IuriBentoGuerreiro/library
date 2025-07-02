@@ -1,4 +1,4 @@
 class Author < ApplicationRecord
-    has_many :books
-    validate :name, uniquess: true
+  has_many :books
+  validates :name, uniqueness: true
 end
